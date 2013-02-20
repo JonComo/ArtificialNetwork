@@ -7,8 +7,12 @@
 //
 
 #import "ANViewController.h"
+#import "ANNetwork.h"
 
 @interface ANViewController ()
+{
+    ANNetwork *network;
+}
 
 @end
 
@@ -18,6 +22,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    network = [[ANNetwork alloc] init];
 }
 
 - (void)didReceiveMemoryWarning

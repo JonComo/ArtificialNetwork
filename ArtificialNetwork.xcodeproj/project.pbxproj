@@ -17,7 +17,10 @@
 		8639617616D499C500DD0D4B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8639617516D499C500DD0D4B /* Default@2x.png */; };
 		8639617816D499C500DD0D4B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8639617716D499C500DD0D4B /* Default-568h@2x.png */; };
 		8639617B16D499C500DD0D4B /* ANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8639617A16D499C500DD0D4B /* ANViewController.m */; };
-		8639617E16D499C500DD0D4B /* ANViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8639617C16D499C500DD0D4B /* ANViewController.xib */; };
+		8639618516D499FC00DD0D4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8639618416D499FC00DD0D4B /* MainStoryboard.storyboard */; };
+		86A4B02616D49BCC00974555 /* ANNeuron.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A4B02516D49BCC00974555 /* ANNeuron.m */; };
+		86A4B02916D49CC300974555 /* ANNetworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A4B02816D49CC300974555 /* ANNetworkView.m */; };
+		86A4B02C16D4A05200974555 /* ANNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A4B02B16D4A05200974555 /* ANNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +39,13 @@
 		8639617716D499C500DD0D4B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8639617916D499C500DD0D4B /* ANViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANViewController.h; sourceTree = "<group>"; };
 		8639617A16D499C500DD0D4B /* ANViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANViewController.m; sourceTree = "<group>"; };
-		8639617D16D499C500DD0D4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ANViewController.xib; sourceTree = "<group>"; };
+		8639618416D499FC00DD0D4B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		86A4B02416D49BCC00974555 /* ANNeuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANNeuron.h; sourceTree = "<group>"; };
+		86A4B02516D49BCC00974555 /* ANNeuron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANNeuron.m; sourceTree = "<group>"; };
+		86A4B02716D49CC300974555 /* ANNetworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANNetworkView.h; sourceTree = "<group>"; };
+		86A4B02816D49CC300974555 /* ANNetworkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANNetworkView.m; sourceTree = "<group>"; };
+		86A4B02A16D4A05200974555 /* ANNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANNetwork.h; sourceTree = "<group>"; };
+		86A4B02B16D4A05200974555 /* ANNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANNetwork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +94,15 @@
 			children = (
 				8639617016D499C500DD0D4B /* ANAppDelegate.h */,
 				8639617116D499C500DD0D4B /* ANAppDelegate.m */,
+				8639618416D499FC00DD0D4B /* MainStoryboard.storyboard */,
 				8639617916D499C500DD0D4B /* ANViewController.h */,
 				8639617A16D499C500DD0D4B /* ANViewController.m */,
-				8639617C16D499C500DD0D4B /* ANViewController.xib */,
+				86A4B02716D49CC300974555 /* ANNetworkView.h */,
+				86A4B02816D49CC300974555 /* ANNetworkView.m */,
+				86A4B02A16D4A05200974555 /* ANNetwork.h */,
+				86A4B02B16D4A05200974555 /* ANNetwork.m */,
+				86A4B02416D49BCC00974555 /* ANNeuron.h */,
+				86A4B02516D49BCC00974555 /* ANNeuron.m */,
 				8639616816D499C500DD0D4B /* Supporting Files */,
 			);
 			path = ArtificialNetwork;
@@ -163,7 +178,7 @@
 				8639617416D499C500DD0D4B /* Default.png in Resources */,
 				8639617616D499C500DD0D4B /* Default@2x.png in Resources */,
 				8639617816D499C500DD0D4B /* Default-568h@2x.png in Resources */,
-				8639617E16D499C500DD0D4B /* ANViewController.xib in Resources */,
+				8639618516D499FC00DD0D4B /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +192,9 @@
 				8639616E16D499C500DD0D4B /* main.m in Sources */,
 				8639617216D499C500DD0D4B /* ANAppDelegate.m in Sources */,
 				8639617B16D499C500DD0D4B /* ANViewController.m in Sources */,
+				86A4B02616D49BCC00974555 /* ANNeuron.m in Sources */,
+				86A4B02916D49CC300974555 /* ANNetworkView.m in Sources */,
+				86A4B02C16D4A05200974555 /* ANNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +207,6 @@
 				8639616B16D499C500DD0D4B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8639617C16D499C500DD0D4B /* ANViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8639617D16D499C500DD0D4B /* en */,
-			);
-			name = ANViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,6 +309,7 @@
 				8639618316D499C500DD0D4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
